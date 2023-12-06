@@ -21,6 +21,11 @@ namespace MauiHybridBlazorScopeValidationIssue
     		builder.Logging.AddDebug();
 #endif
 
+            builder.ConfigureContainer(new DefaultServiceProviderFactory(new ServiceProviderOptions {
+                ValidateOnBuild = true,
+                ValidateScopes = true,
+            }));
+
             return builder.Build();
         }
     }
