@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridBlazorScopeValidationIssue", "MauiHybridBlazorScopeValidationIssue.csproj", "{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF95BA90-18CE-4C28-ADE0-2CC4D53EEDFC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BC28FE8-E709-4C54-8870-3A30E9C35859}
+	EndGlobalSection
+EndGlobal
